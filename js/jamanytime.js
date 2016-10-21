@@ -6,6 +6,5 @@
 var drums = new Pizzicato.Sound('sounds/drums.m4a');
 
 $("#drumBtn").click(function() {
-	alert("Clicked!");
 	drums.play();
 });
